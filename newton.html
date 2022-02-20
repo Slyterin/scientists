@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/498px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg" type="image/x-icon">
+    <title>Isaac Newton | Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lobster&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/498px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        #logo {
+            width: 100%;
+        }
+
+        #tit {
+            color: white;
+            font-size: 100px;
+            font-family: lobster;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        #sub {
+            color: burlywood;
+            font-size: 50px;
+            font-family: akaya telivigala;
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        nav {
+            position: sticky;
+            top: 0;
+            margin-top: 0;
+            float: right;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 20px;
+            margin-top: 5.5vh;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bolder;
+            position: relative;
+        }
+
+        nav ul li a::after{
+            content: "";
+            position: absolute;
+            height: 3px;
+            width: 0%;
+            left: 0;
+            bottom: -10px;
+            background-color: burlywood;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        #ac {
+            margin-left: 10vw;
+
+        }
+
+        #ah {
+            color: white;
+            font-size: 100px;
+            font-family: lobster;
+            padding-bottom: 30px;
+            margin-top: 100vh;
+            margin-left: 20px;
+        }
+
+        #des1 {
+            color: white;
+            font-size: 48px;
+            font-family: akaya telivigala;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #ih {
+            color: white;
+            font-size: 100px;
+            font-family: lobster;
+            padding-bottom: 30px;
+            margin-top: 100vh;
+            margin-left: 20px;
+        }
+
+        #des2 {
+            color: white;
+            font-size: 30px;
+            font-family: akaya telivigala;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #bh {
+            color: white;
+            font-size: 100px;
+            font-family: lobster;
+            padding-bottom: 30px;
+            margin-top: 100vh;
+            margin-left: 20px;
+        }
+
+        #des3 {
+            color: white;
+            font-size: 25px;
+            font-family: akaya telivigala;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        ::-webkit-scrollbar {
+            height: 0px;
+            width: 0px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="ac"><a href="newton.html">Home</href></li>
+            <li><a href="#ah">About him</a></li>
+            <li><a href="#ih">Inventions</a></li>
+            <li><a href="#bh">Books</a></li>
+        </ul>
+    </nav>
+    <h1 id="tit">Isaac Newton</h1>
+    <h1 id="sub">Project Made By Team Slytherin</h1><br><br><br><br><br><br><br><br><br>
+    <h1 id="ah">About Isaac Newton</h1>
+    <h1 id="des1">Sir Isaac Newton PRS was born on 4 January 1643, Woolsthorpe Manor House in the UK. He was an English mathematician, physicist, astronomer, alchemist, theologian, and author.  He was a key figure in the philosophical revolution known as the Enlightenment. He obtained his education from  Trinity College (1667–1668), Trinity College (1661–1665), The King's School (1655–1660). Isaac Newton made the law known as “The law of gravity” which got famous in the year 1869. Isaac Newton spoke  languages which are English, Latin and Greek and his nationality is British. He took his last breath at the age of 84 on 31 March 1727, Kensington, London, United Kingdom and his last words were  "the great ocean of truth lay all undiscovered before me.".</h1>
+    <h1 id="ih">Inventions by Isaac Newton</h1>
+    <ol id="des2">
+        <h1>1) Newton's Orbital Cannon</h1>
+        <h1>2) Newtonian Cat Doors</h1>
+        <h1>3) Newtonian Cat Doors</h1>
+        <h1>4) The Philosopher's Stone</h1>
+        <h1>5) Calculus, I Am Your Father</h1>
+        <h1>6) In Rainbows</h1>
+        <h1>7) Through the Reflecting Telescope</h1>
+        <h1>8) The Perfect Coin etc.</h1>
+    </ol>
+    <h1 id="bh">Books Written By Isaac Newton</h1>
+    <ol id="des3">
+        <h1>1) The Principia : Mathematical Principles of Natural Philosophy</h1><br>
+        <h1>2) Opticks: or, A Treatise of the Reflexions, Refractions, Inflexions and Colours of Light</h1><br>
+        <h1>3) Observations upon the prophecies of Daniel, and the Apocalypse of St. John</h1><br>
+        <h1>4) Principia : Vol. 1 The Motion of Bodies</h1><br>
+        <h1>5) Principia: Vol. II: The System of the World etc.</h1><br>      
+    </ol>
+</body>
+</html>
